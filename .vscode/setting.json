@@ -5,7 +5,7 @@
     "editor.formatOnSave": false,
 
     "files.exclude":{
-        "**/.git": true,
+        "**/.git": false,
         "**/.svn": true,
         "**/.DS_Store": true
     },

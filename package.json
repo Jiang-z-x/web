@@ -20,7 +20,7 @@
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs",
     "test": "vitest",
-    "prepare": "husky"
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",

@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": ".cz-config.cjs"
+    }
+  },
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
@@ -26,6 +34,7 @@
     "@vitejs/plugin-vue": "^5.1.4",
     "@vitejs/plugin-vue-jsx": "^4.0.1",
     "@vue/test-utils": "2.4.6",
+    "cz-customizable": "^7.2.1",
     "eslint": "^9.11.1",
     "eslint-plugin-format": "^0.1.2",
     "happy-dom": "15.7.4",

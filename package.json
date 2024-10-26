@@ -1,0 +1,41 @@
+{
+  "name": "ssy-ui-vite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "dev": "vite",
+    "build": "vite build",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "test": "vitest",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@iconify-json/ic": "^1.2.1",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "@vitejs/plugin-vue-jsx": "^4.0.1",
+    "@vue/test-utils": "2.4.6",
+    "happy-dom": "15.7.4",
+    "unocss": "^0.63.4",
+    "vite": "^5.4.9",
+    "vitepress": "^1.4.1",
+    "vitepress-theme-demoblock": "3.0.7",
+    "vitest": "2.1.2",
+    "@antfu/eslint-config": "^3.7.3",
+    "@unocss/eslint-plugin": "^0.62.4",
+    "eslint": "^9.11.1",
+    "eslint-plugin-format": "^0.1.2",
+    "typescript": "5.5.4"
+  },
+  "type": "module",
+  "dependencies": {
+    "vue": "^3.5.12"
+  }
+}
